@@ -50,7 +50,7 @@ For example, `page's title` is a valid CQL expression that tells you the title o
 Currently, Croct provides a Software Development Kit (SDK) for JavaScript that can be installed by using the NPM package manager. For more information, and installation details, refer to 
 [Quick Start Guide](https://github.com/croct-tech/plug-js/blob/master/docs/quick-start.md).
 
-## How to implement it
+## How to Implement It
 
 The technology provided by Croct works for both web (Vanilla JavaScript, React, Vue, NextJs, etc) and app (iOS and Android), and can be implemented as follows:
 
