@@ -17,7 +17,7 @@ This guide introduces Croct's technology, and explains how to integrate it into 
 
 - [Identifying Different Customers with the Personalization Engine](#identifying-different-customers-with-the-personalization-engine)
 
-- [Integrating Croct's API into your applications](#integrating-croct's-API-into-your-applications)
+- [Integrating Croct into your applications](#integrating-croct-into-your-applications)
 
 - [Next Steps](#next-steps)
 
@@ -61,7 +61,7 @@ There are many ways to identify customers by adjusting the personalization engin
 - Marketing: It is important to keep your communication consistent along the entire purchase flow.
 
 
-## Integrating Croct's API into your applications
+## Integrating Croct into your applications
 
 Thinking about the developers experience, and the revenue increase, Croct designed an English-based 
 language called Contextual Query Language (CQL). Its goal is to abstract away from marketing, product, 
