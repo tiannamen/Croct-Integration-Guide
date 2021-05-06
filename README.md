@@ -7,7 +7,7 @@
 
 # Croct Integration Guide
 
-This guide aims to introduce Croct's technology, and explain how it can be integrated into your applications.
+This guide introduces Croct's technology, and explains how to integrate it into your applications.
 
 ## Table of Contents
 
@@ -15,18 +15,19 @@ This guide aims to introduce Croct's technology, and explain how it can be integ
 
 - [Target Customers and Benefits](#target-customers-and-benefits)
 
-- [Development Details](#development-details)
+- [Identifying Different Customers with the Personalization Engine](#identifying-different-customers-with-the-personalization-engine)
 
-- [How to Implement It](#how-to-implement-it)
-
-- [Ways to Identify Your Customers](#ways-to-identify-your-customers)
+- [Integrating Croct's API into your applications](#integrating-it-into-your-applications)
 
 - [Next Steps](#next-steps)
 
 ## Introduction
 
-Croct is a [SaaS](https://www.salesforce.com/br/saas/) platform that provides technology for real-time personalization, through unified and managed customer data. Once it's implemented, Croct's API starts to collect data 
-from users and creates a customized experience for each one of them by sending timely and relevant messages. This way, the near-term customer lifetime value can be increased by creating more targeted messages.
+Croct is a [SaaS](https://www.salesforce.com/br/saas/) platform that provides technology for 
+real-time personalization, through unified and managed customer data. Once it is implemented, 
+Croct's API starts to collect data from users and creates a customized experience for each one 
+of them by sending timely and relevant messages. Creating more targeted messages increases the near-term 
+customer lifetime value.
 
 The personalization is mainly focused on the following approaches:
 
@@ -36,35 +37,18 @@ The personalization is mainly focused on the following approaches:
 
 ## Target Customers and Benefits
 
-It is aimed for marketers, product managers, and software engineers. The platform allows features adjustment to meet each customer's unique needs, which increases the revenue. 
-The platform is also expertly designed for developers, allowing them to focus on building great products instead of spending time and money on expensive personalization infrastructure. 
-By working with Croct, companies can take full advantage of first-party customer data to create a positive customer experience, and increase their Return on Investment.
+Marketers, product managers and software engineers can benefit from using Croct's API. 
+The platform allows feature adjustments to meet each customer's unique needs, which increases the revenue. 
+This technology also benefits the developers by allowing them to focus on building great products instead 
+of spending time and money on expensive personalization infrastructure. 
+By working with Croct's API, companies can take full advantage of first-party customer data to create 
+a positive customer experience, and increase their Return on Investment.
 
-## Development Details
+## Identifying Different Customers with the Personalization Engine
 
-Thinking about the developers experience, and the revenue increase, an English-based language called Contextual Query Language (CQL) was designed to abstract away from marketing, product, and development teams the complexities 
-behind delivering personalized experiences online. Therefore, even non-developers can work with this new straightforward programming language.
+There are many ways to identify customers by adjusting the personalization engine, such as:
 
-For example, `page's title` is a valid CQL expression that tells you the title of the page the user is currently viewing. Similarly, `user's name` will tell you the name of the user using your app.
-
-Currently, Croct provides a Software Development Kit (SDK) for JavaScript that can be installed by using the NPM package manager. For more information, and installation details, refer to 
-[Quick Start Guide](https://github.com/croct-tech/plug-js/blob/master/docs/quick-start.md).
-
-## How to Implement It
-
-The technology provided by Croct works for both web (Vanilla JavaScript, React, Vue, NextJs, etc) and app (iOS and Android), and can be implemented as follows:
-
-1. Identify the information that will be used by the personalization engine.
-
-2. Define the audience, and whether it will be an experiment or not, what will be personalized, and which metrics will help to measure the outcome of the personalization. 
-
-3. Finally implement the personalization, and, eventually, the tracking to measure the results.
-
-## Ways to Identify Your Customers
-
-Customers can be identified by multiple ways, that is, the personalization engine can be adjusted to identify components such as:
-
-- Weather: Your offer can be adapted as people's needs change according to climate and weather.
+- Weather: Adapt your offer as people's needs change according to climate and weather.
 
 - Location: Use your customer's whereabouts to define what should be offered.
 
@@ -72,9 +56,36 @@ Customers can be identified by multiple ways, that is, the personalization engin
 
 - Behavioral: Establish and use patterns to determine what content should be shown.
 
-- Session: Are your customers leaving your website without interacting with the page?
+- Session: Are your customers leaving your website without interacting with the page? Identify what is wrong and provide more assertive offers.
 
-- Marketing: It's important to keep your communication consistent along the entire purchase flow.
+- Marketing: It is important to keep your communication consistent along the entire purchase flow.
+
+
+## Integrating Croct's API into your application
+
+Thinking about the developers experience, and the revenue increase, Croct designed an English-based 
+language called Contextual Query Language (CQL). Its goal is to abstract away from marketing, product, 
+and development teams, the complexities behind delivering personalized experiences online. Therefore, 
+even non-developers can work with this new intuitive, straightforward programming language.
+
+For example, `page's title` is a valid CQL expression that tells you the title of the page the user is 
+currently viewing. Similarly, `user's name` will tell you the name of the user who is using your app.
+
+Currently, Croct provides a Software Development Kit (SDK) for JavaScript that can be installed 
+by using the NPM package manager. For more information, and installation details, refer to 
+[Quick Start Guide](https://github.com/croct-tech/plug-js/blob/master/docs/quick-start.md).
+
+The technology provided by Croct works for both web 
+(Vanilla JavaScript, React, Vue, NextJs, etc) and app (iOS and Android), and can be implemented 
+by following the steps below:
+
+1. Identify the information that the personalization engine will use;
+
+2. Define the audience, and whether it will be an experiment or not, what will be personalized, 
+and which metrics will help to measure the outcome of the personalization; 
+
+3. Finally, implement the personalization and, eventually, the tracking to measure the results.
+
 
 ## Next Steps
 
