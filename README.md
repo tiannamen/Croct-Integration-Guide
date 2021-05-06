@@ -17,7 +17,7 @@ This guide introduces Croct's technology, and explains how to integrate it into 
 
 - [Identifying Different Customers with the Personalization Engine](#identifying-different-customers-with-the-personalization-engine)
 
-- [Integrating Croct's API into your applications](#integrating-it-into-your-applications)
+- [Integrating Croct's API into your applications](#integrating-croct's-API-into-your-applications)
 
 - [Next Steps](#next-steps)
 
