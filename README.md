@@ -25,28 +25,28 @@ This guide introduces Croct's technology, and explains how to integrate it into 
 
 Croct is a [SaaS](https://www.salesforce.com/br/saas/) platform that provides technology for 
 real-time personalization, through unified and managed customer data. Once it is implemented, 
-Croct's API starts to collect data from users and creates a customized experience for each one 
-of them by sending timely and relevant messages. Creating more targeted messages increases the near-term 
+Croct's API starts collecting data from users and creates a customized experience to each one 
+of them, by sending timely and relevant messages. Creating more targeted messages increases the near-term 
 customer lifetime value.
 
 The personalization is mainly focused on the following approaches:
 
-- Boost conversion.
-- User experience improvement.
+- Boost conversion;
+- User experience improvement;
 - Engagement increase.
 
 ## Target Customers and Benefits
 
 Marketers, product managers and software engineers can benefit from using Croct's API. 
 The platform allows feature adjustments to meet each customer's unique needs, which increases the revenue. 
-This technology also benefits the developers by allowing them to focus on building great products instead 
-of spending time and money on expensive personalization infrastructure. 
+This technology also benefits the developers, by allowing them to focus on building great products instead 
+of spending time and money on an expensive personalization infrastructure. 
 By working with Croct's API, companies can take full advantage of first-party customer data to create 
 a positive customer experience, and increase their Return on Investment.
 
 ## Identifying Different Customers with the Personalization Engine
 
-There are many ways to identify customers by adjusting the personalization engine, such as:
+There are many ways to identify customers, by adjusting the personalization engine, such as:
 
 - Weather: Adapt your offer as people's needs change according to climate and weather.
 
@@ -64,7 +64,7 @@ There are many ways to identify customers by adjusting the personalization engin
 ## Integrating Croct into your applications
 
 Thinking about the developers experience, and the revenue increase, Croct designed an English-based 
-language called Contextual Query Language (CQL). Its goal is to abstract away from marketing, product, 
+language called Contextual Query Language (CQL). Its goal is to abstract away, from marketing, product, 
 and development teams, the complexities behind delivering personalized experiences online. Therefore, 
 even non-developers can work with this new intuitive, straightforward programming language.
 
@@ -82,7 +82,7 @@ by following the steps below:
 1. Identify the information that the personalization engine will use;
 
 2. Define the audience, and whether it will be an experiment or not, what will be personalized, 
-and which metrics will help to measure the outcome of the personalization; 
+and which metrics will help you measure the outcome of the personalization; 
 
 3. Finally, implement the personalization and, eventually, the tracking to measure the results.
 
